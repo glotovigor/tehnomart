@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Cuprum';
+    src: url('Cuprum-Regular.ttf');
+    src: local('Cuprum'), local('Cuprum'), 
+         url('Cuprum-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('Cuprum-Bold.ttf');
+    src: local('Cuprum'), local('Cuprum'), 
+         url('Cuprum-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: black;
+
+    background-color: #ffffff;  
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none; 
+ }
+
+
+ .page-header__header-top {
+    width: 100%;
+    background-color: #293449;
+}
+
+.page-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.page-header__logo-wrapper {
+    position: relative;
+    margin: 0;
+    padding-top: 12px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 12px;
+    background-color: #EE3643;
+}
+
+.page-header__logo-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 5px;
+    background-color: #B52932;
+
+    top: 42px;
+    left: 0px;
+}
+
+.page-header__logo {
+    display: block;
+
+    width: 108px;
+    height: 18px;
+}
+
+.page-header__user-service-panel {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+}
+
+.page-header__user-service-panel li {
+    margin: 0;
+    padding: 0;
+}
+
+.page-header__header-top a {
+
+    font-size: 17px;
+    line-height: 18px;
+    color: white;
+}
+
+.page-header__cart-link,
+.page-header__favorite-link {
+    display: block;
+
+    position: relative;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 11.5px;
+    padding-bottom: 12.5px;
+}
+
+.page-header__favorite-link::before {
+    content: "";
+
+    position: absolute;
+    top: 12px;
+    left: 17px;
+
+    width: 15px;
+    height: 15px;
+
+    background-image: url("../img/icons/icon-bookmark.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    opacity: 0.3;
+}
+
+.page-header__cart-link::before {
+    content: "";
+
+    position: absolute;
+    top: 12px;
+    left: 17px;
+
+    width: 15px;
+    height: 15px;
+
+    background-image: url("../img/icons/icon-cart.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    opacity: 0.3;
+}
+
+.page-header__checkout-link {
+    margin: 0;
+    font-weight: 900;
+
+    display: block;
+
+    background-color: #63A63E;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11.5px;
+    padding-bottom: 12.5px;
+}
+
+.page-header__search {
+    flex-grow: 1;
+}
+
+.page-header__search-form {
+    position: relative;
+    width: 100%;
+}
+
+.page-header__row-input {
+    position: relative;
+    display: flex;
+}
+
+.page-header__row-input input[type="search"] {
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: normal;
+
+    display: block;
+    position: relative;
+
+    outline: none;
+
+    padding-left: 50px;
+    padding-right: 21px;
+    padding-top: 11.5px;
+    padding-bottom: 12.5px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.page-header__search-button-img {
+    position: absolute;
+
+    background-image: url("../img/icons/icon-search.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    border: none;
+    top: 12px;
+    left: 17px;
+
+    width: 17px;
+    height: 17px;
+    opacity: 0.3;
+}
+
+.page-header__row-input:hover {
+    background-color: #212A3A;
+}
+
+.page-header__row-input:hover .page-header__search-button-img {
+    opacity: 1;
+}
+
+.page-header__row-input input[type="search"]::placeholder {
+    color: white;
+    font: inherit;
+   }
+
+.page-header__row-input input[type="search"]:focus {
+    background-color: white;
+    color: black;
+   }
+
+.page-header__row-input input[type="search"]:focus + .page-header__search-button-img {
+    background-image: url("../img/icons/icon-search-red.svg");
+    opacity: 1;
+   }
+

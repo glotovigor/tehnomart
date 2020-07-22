@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-search</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-407.000000, -84.000000)" fill="#FFFFFF" fill-rule="nonzero" id="top-menu">
+            <g transform="translate(-55.000000, 0.000000)">
+                <g id="icon-search" transform="translate(462.000000, 84.000000)">
+                    <path d="M17,15.586 L13.458,12.044 C14.4580739,10.7403117 15.0000882,9.14309188 15,7.5 C15,3.35786438 11.6421356,0 7.5,0 C3.35786438,0 0,3.35786438 0,7.5 C0,11.6421356 3.35786438,15 7.5,15 C9.21,15 10.782,14.421 12.044,13.458 L15.586,17 L17,15.586 Z M2,7.5 C2,4.467 4.467,2 7.5,2 C10.532,2 13,4.467 13,7.5 C13,10.532 10.532,13 7.5,13 C4.46380465,12.9966932 2.0033068,10.5361953 2,7.5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
